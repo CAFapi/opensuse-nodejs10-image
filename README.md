@@ -1,0 +1,1 @@
+# opensuse-nodejs10-image
