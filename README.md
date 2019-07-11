@@ -1,7 +1,5 @@
 # openSUSE and NodeJS10 image
 
-**Note that this image currently runs on openSUSE Leap 42.3 as there is no nodejs10 package available for Leap 15.0 yet**
-
 This project builds an openSUSE-based image which includes NodeJS version 10 and is based off the [OpenSUSE Base Image](https://github.com/CAFapi/opensuse-base-image). It can be used as a base image by projects which require NodeJS10.
 
 ### Tini
