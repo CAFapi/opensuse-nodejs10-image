@@ -1,5 +1,5 @@
 #
-# Copyright 2017-2018 Micro Focus or one of its affiliates.
+# Copyright 2017-2019 Micro Focus or one of its affiliates.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FROM cafinternal/prereleases:opensuse-base-1.3.0-SNAPSHOT
+FROM cafapi/opensuse-base:1
 
 # Update the OS packages and install NodeJS
 RUN zypper -n refresh && \
