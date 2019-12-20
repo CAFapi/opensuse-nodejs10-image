@@ -18,7 +18,6 @@ FROM cafapi/opensuse-base:1
 
 # Update the OS packages and install NodeJS
 RUN zypper -n refresh && \
-    zypper -n update && \
     zypper -n install nodejs10 npm
 
 # Tag the image
