@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FROM cafinternal/prereleases:opensuse-base-2.0.0-SNAPSHOT
+FROM cafapi/opensuse-base:2
 
 # Update the OS packages and install NodeJS
 RUN zypper -n refresh && \
