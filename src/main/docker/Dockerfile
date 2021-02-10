@@ -22,4 +22,5 @@ FROM ${DOCKER_HUB_PUBLIC}/cafapi/opensuse-base:2
 # Update the OS packages and install NodeJS
 RUN zypper -n refresh && \
     zypper -n update && \
-    zypper -n install nodejs10 npm
+    zypper -n install nodejs10 npm && \
+    zypper -n clean --all
