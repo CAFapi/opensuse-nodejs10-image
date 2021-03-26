@@ -1,5 +1,5 @@
 #
-# Copyright 2018-2020 Micro Focus or one of its affiliates.
+# Copyright 2018-2021 Micro Focus or one of its affiliates.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 # Docker registry
 ARG DOCKER_HUB_PUBLIC=docker.io
 
-FROM ${DOCKER_HUB_PUBLIC}/cafapi/prereleases:opensuse-base-2.3.0-SNAPSHOT
+FROM ${DOCKER_HUB_PUBLIC}/cafapi/opensuse-base:2
 
 # Update the OS packages and install NodeJS
 RUN zypper -n refresh && \
